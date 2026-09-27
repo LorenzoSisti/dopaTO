@@ -1,4 +1,7 @@
 # dopaTO: DOPA decarboxylase Transition: Open-to-closed
+
+A pipeline developed during my internship at the [Structural Bioinformatics Group at Sapienza University of Rome](https://schubert.bio.uniroma1.it/index.html).
+
 This codebase, forked from the FRESEAN-metadynamics pipeline, allows the user to run MD simulations of dimer proteins, extract vibrational motions using the FREquency-SElective ANharmonic (FRESEAN) mode analysis, and to use the lowest-frequency vibrational modes as collective variables in enhanced sampling simulations (well-tempered metadynamics) to speed up conformational sampling. Particularly, this code was optimized for running on CINECA HPC Leonardo supercomputer, and for analyzing a dimer protein existing in two conformational states: **open** and **closed**, each of which could further be **bound** or **unbound** to a covalent ligand.  
 
 Please read through each of the following sections to understand how to use this repository. 
